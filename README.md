@@ -1,10 +1,5 @@
 # ⚡ Hacker Calc v1.0 — Matrix Edition
 
-![GitHub license](https://img.shields.com/badge/license-MIT-green)
-![JS](https://img.shields.com/badge/Vanilla-JS-yellow)
-![Status](https://img.shields.com/badge/Status-Functional-brightgreen)
-![Author](https://img.shields.com/badge/Author-moreiraalps-00ff41)
-
 Uma calculadora web com estética **Cyberpunk/Hacker**, focada em alta performance e design de terminal retrô. Desenvolvida com JavaScript puro, explorando manipulação de DOM e CSS Grid avançado.
 
 > "I'm in." — Acesso concedido ao sistema de cálculos de alta precisão.
