@@ -1,9 +1,5 @@
 # ⚡ Hacker Calc v1.0 — JavaScript
 
-![GitHub license](
-![JS]
-![Status]
-
 Uma calculadora web com estética **Cyberpunk/Hacker**, focada em alta performance e design de terminal retrô. Desenvolvida com JavaScript puro, explorando manipulação de DOM e CSS Grid avançado.
 
 > "I'm in." — Alguém, em algum filme de hacker dos anos 90.
