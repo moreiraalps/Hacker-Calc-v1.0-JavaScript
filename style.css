@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace; /* Fonte estilo terminal */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #050505; /* Preto quase puro */
+    color: #00ff41; /* Verde Matrix */
+}
+
+.calculator {
+    background-color: #0a0a0a;
+    width: 380px;
+    padding: 20px;
+    border: 1px solid #00ff41;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.2);
+}
+
+.terminal-header {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    color: #00ff41;
+    opacity: 0.7;
+}
+
+.display {
+    background-color: #000;
+    color: #00ff41;
+    text-align: right;
+    font-size: 3rem;
+    padding: 20px;
+    border: 1px solid #00ff41;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-shadow: 0 0 10px rgba(0, 255, 65, 0.5); /* Brilho no número */
+    overflow: hidden;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+}
+
+.btn {
+    background-color: #000;
+    color: #00ff41;
+    border: 1px solid #00ff41;
+    border-radius: 3px;
+    padding: 15px 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.btn:hover {
+    background-color: #00ff41;
+    color: #000;
+    box-shadow: 0 0 15px #00ff41;
+}
+
+/* Destaques Hacker */
+.ce { border-color: #008f11; color: #008f11; }
+.c { border-color: #ff0000; color: #ff0000; }
+.operator { color: #00ff41; font-weight: bold; }
+
+.plus { 
+    grid-row: span 2; 
+    background-color: rgba(0, 255, 65, 0.1);
+}
+
+.equals { 
+    background-color: #00ff41; 
+    color: #000; 
+    font-weight: bold;
+}
+
+.zero { grid-column: span 2; }
+
+.btn:active {
+    transform: translateY(2px);
+    filter: brightness(0.8);
+}
